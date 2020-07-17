@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 import matplotlib.pylab as plt
 
-img = cv2.imread('test10.jpg')
+img = cv2.imread('sb3.png')
 rows, cols, ch = img.shape
 
 # 设置标记点和目标点
-markpoint = [[93, 651], [20, 197], [788, 540], [665, 20]]
+markpoint = [[21, 80], [111,13 ], [113, 220], [221, 111]]
 dstpoint = [[0, 0], [352, 0], [0, 500], [352, 500]]
 
 # 强调标记点
